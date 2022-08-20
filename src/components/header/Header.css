@@ -1,11 +1,12 @@
 header {
 	display: flex;
+	justify-content: space-between;
 }
-
-.logo {
-	flex: 3;
+/*
+header .logo {
+	justify-content: space-around;
 }
-
+*/
 .nav_elements ul li {
 	display: inline;
 }
