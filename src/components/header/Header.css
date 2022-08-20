@@ -1,0 +1,11 @@
+header {
+	display: flex;
+}
+
+.logo {
+	flex: 3;
+}
+
+.nav_elements ul li {
+	display: inline;
+}
