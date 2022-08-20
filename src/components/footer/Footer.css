@@ -1,16 +1,18 @@
 .footer_section {
 	display: flex;
 	flex-direction: column;
-	margin: 0;
-	padding: 0;
-	display: flex;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .footer_section .logo_text {
 	font-weight: bold;
 	font-size: 20px;
 	color: #fff;
+}
+
+.footer_section a:visited {
+	color: #777;
 }
 
 .upper_footer {
@@ -40,6 +42,10 @@
 	margin: 0 5%;
 }
 
+.shop_section .logo_text {
+	margin-bottom: 25%;
+}
+
 .shop_section ul {
 	padding-top: 0px;
 
@@ -50,6 +56,10 @@
 
 .reachus_section {
 	margin: 0 5%;
+}
+
+.reachus_section .logo_text {
+	margin-bottom: 25%;
 }
 
 .reachus_section ul {

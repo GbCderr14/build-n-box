@@ -42,15 +42,15 @@ export default function Footer() {
 			</div>
 
 			<div className="lower_footer">
-				<div className="legal_item logo_text">
+				<div className="logo_text">
 					<a href="/">Terms and Conditions</a>
 				</div>
 
-				<div className="legal_item logo_text">
+				<div className="logo_text">
 					<a href="/">Privacy Policy</a>
 				</div>
 
-				<div className="legal_item logo_text">
+				<div className="logo_text">
 					<a href="/">Affiliate Program Disclaimer</a>
 				</div>
 			</div>
