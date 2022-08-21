@@ -1,6 +1,7 @@
 import React from "react";
 
 const ShopCategory = () => {
+
 	return (
 		<div className="category_section">
 			<div className="card"></div>
@@ -8,6 +9,7 @@ const ShopCategory = () => {
 			<div>Some text here</div>
 		</div>
 	);
+
 };
 
 export default ShopCategory;
