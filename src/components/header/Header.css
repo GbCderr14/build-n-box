@@ -24,6 +24,6 @@
 
 .header_section .nav_elements {
 	display: flex;
-	gap: 15%;
+	gap: 12%;
 	align-items: center;
 }
