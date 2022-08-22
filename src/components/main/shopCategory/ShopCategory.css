@@ -23,6 +23,7 @@
 
 .crop {
 	border-radius: 25px;
+	overflow: hidden;
 }
 .crop img {
 	width: 400px;
@@ -30,12 +31,13 @@
 	object-fit: cover;
 	background-position: center;
 	opacity: 0.4;
-	transition: transform 0.55s ease;
+	transition: 0.55s ease;
+	overflow: hidden;
 }
 
 .cat_img:hover {
 	transform: scale(1.2);
 	transition: 0.55s;
 	opacity: 1;
-	z-index: 1;
+	overflow: hidden;
 }

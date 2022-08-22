@@ -12,7 +12,7 @@ export default function Footer() {
 
 				<div className="shop_section">
 					<div className="logo_text"> Shop </div>
-					<ul className="shop_categories">
+					<ul>
 						<li>
 							<a href="/">CPU</a>
 						</li>
@@ -30,7 +30,7 @@ export default function Footer() {
 
 				<div className="reachus_section">
 					<div className="logo_text"> Reach Us</div>
-					<ul className="reach_us_options">
+					<ul>
 						<li>
 							<a href="/"> Instragram </a>
 						</li>
@@ -39,21 +39,23 @@ export default function Footer() {
 						</li>
 					</ul>
 				</div>
+
+				<div className="company_section">
+					<div className="logo_text"> Company </div>
+					<ul>
+						<li>
+							<a href="/">Terms and Conditions</a>
+						</li>
+						<li>
+							<a href="/">Privacy Policy</a>
+						</li>
+						<li>
+							<a href="/">Affiliate Program Disclaimer</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-
-			<div className="lower_footer">
-				<div className="logo_text">
-					<a href="/">Terms and Conditions</a>
-				</div>
-
-				<div className="logo_text">
-					<a href="/">Privacy Policy</a>
-				</div>
-
-				<div className="logo_text">
-					<a href="/">Affiliate Program Disclaimer</a>
-				</div>
-			</div>
+			<p>© 2022, buildNbox.com</p>
 		</div>
 	);
 }

@@ -43,6 +43,15 @@ body {
 	font-weight: bold;
 	font-size: 24px;
 }
+
+@media screen and (max-width: 990px) {
+	.card {
+		flex-wrap: wrap;
+	}
+	.item:first-child {
+		flex-basis: 100%;
+	}
+}
 /*
 .container-1 div {
 	border: 1px #ccc solid;

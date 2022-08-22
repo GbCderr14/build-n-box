@@ -3,6 +3,12 @@
 	flex-direction: column;
 	margin: 0 auto 5% auto;
 	padding: 0;
+	align-items: center;
+}
+
+.footer_section p {
+	margin: 0.5%;
+	color: #777;
 }
 
 .footer_section .logo_text {
@@ -19,8 +25,13 @@
 	display: flex;
 	align-self: center;
 	width: 75%;
-	padding: 0.5%;
+	padding: 3%;
 	justify-content: center;
+
+	border-top: solid;
+	border-bottom: solid;
+	border-width: medium;
+	border-color: #777;
 }
 
 .upper_footer ul {
@@ -38,6 +49,7 @@
 	margin-right: 5%;
 }
 
+/* Shopping section */
 .shop_section {
 	margin: 0 5%;
 }
@@ -54,6 +66,7 @@
 	color: #777;
 }
 
+/* Reach us section */
 .reachus_section {
 	margin: 0 5%;
 }
@@ -70,15 +83,19 @@
 	color: #777;
 }
 
-.lower_footer {
-	display: flex;
-	justify-content: space-between;
-	margin: 4% 0 0 0;
+/* Company section */
+.company_section {
+	margin: 0 5%;
+}
 
-	border-style: solid;
-	border-width: 3px 0 3px 0;
-	padding: 1%;
+.company_section .logo_text {
+	margin-bottom: 10%;
+}
+
+.company_section ul {
+	padding-top: 0px;
 
 	font-weight: bold;
+	font-size: 16px;
 	color: #777;
 }
