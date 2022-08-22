@@ -1,31 +1,17 @@
 //import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/header/Header";
-import LandingPage from "./components/main/landingPage/LandingPage";
 import Footer from "./components/footer/Footer";
-import ShopCategories from "./components/main/shopCategory/ShopCategories";
+import Main from "./components/main/Main";
 
-function App() {
+const App = () => {
 	return (
 		<div className="container-1">
 			<Header />
-			<div className="hero">
-				<div className="vid_wrapper">
-					<video className="video" autoPlay loop muted>
-						<source src="/LandingPageVid.mp4" type="video/mp4" />
-					</video>
-				</div>
-				<div className="hero_content">
-					<LandingPage />
-				</div>
-			</div>
-			<div className="categories">
-				<p>Shop by Category</p>
-			</div>
-			<ShopCategories />
+			<Main />
 			<Footer />
 		</div>
 	);
-}
+};
 
 export default App;
