@@ -10,9 +10,11 @@ function App() {
 		<div className="container-1">
 			<Header />
 			<div className="hero">
-				<video className="video" autoPlay loop muted>
-					<source src="/LandingPageVid.mp4" type="video/mp4" />
-				</video>
+				<div className="vid_wrapper">
+					<video className="video" autoPlay loop muted>
+						<source src="/LandingPageVid.mp4" type="video/mp4" />
+					</video>
+				</div>
 				<div className="hero_content">
 					<LandingPage />
 				</div>

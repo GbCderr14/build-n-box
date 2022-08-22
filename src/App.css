@@ -21,12 +21,12 @@ body {
 }
 
 .hero video {
-	min-width: 120%;
+	min-width: 90%;
 	min-height: 120%;
 	position: absolute;
 	top: 100%;
 	left: 100%;
-	transform: translateX(-50%) translateY(-60%);
+	transform: translateX(-100%) translateY(-60%);
 	z-index: -1;
 }
 
@@ -44,16 +44,17 @@ body {
 	font-size: 24px;
 }
 
-@media screen and (max-width: 990px) {
-	.card {
-		flex-wrap: wrap;
-	}
-	.item:first-child {
-		flex-basis: 100%;
-	}
+.video {
+	border-radius: 25px;
 }
+.vid_wrapper {
+	width: 60%;
+
+	border-radius: 25px;
+}
+
 /*
 .container-1 div {
 	border: 1px #ccc solid;
 }
-*/ ;
+*/
