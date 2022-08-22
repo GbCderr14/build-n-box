@@ -11,7 +11,7 @@ export default function Header() {
 
 			<div className="nav_elements">
 				<div>
-					<a href="/"> Shop by Parts </a>
+					<a href="/"> Shop Parts </a>
 				</div>
 				<div>
 					<a href="/"> Cart </a>

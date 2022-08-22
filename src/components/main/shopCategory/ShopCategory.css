@@ -1,0 +1,19 @@
+.category_section {
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+}
+
+.card div {
+	margin: 5% 0% 50% 0%;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.cat_img {
+	width: 400px;
+	height: 650px;
+	z-index: 1;
+	background-position: center;
+}

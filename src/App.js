@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import LandingPage from "./components/main/landingPage/LandingPage";
 import Footer from "./components/footer/Footer";
-import ShopCategory from "./components/main/shopCategory/ShopCategory";
+import ShopCategories from "./components/main/shopCategory/ShopCategories";
 
 function App() {
 	return (
@@ -17,7 +17,10 @@ function App() {
 					<LandingPage />
 				</div>
 			</div>
-			<ShopCategory />
+			<div className="categories">
+				<p>Shop by Category</p>
+			</div>
+			<ShopCategories />
 			<Footer />
 		</div>
 	);
