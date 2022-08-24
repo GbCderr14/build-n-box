@@ -16,8 +16,8 @@
 }
 
 .card_link .crop {
-	width: 400px;
-	height: 650px;
+	width: 30vh;
+	height: 50vh;
 	overflow: hidden;
 }
 
@@ -26,8 +26,8 @@
 	overflow: hidden;
 }
 .crop img {
-	width: 400px;
-	height: 650px;
+	width: 30vh;
+	height: 65vh;
 	object-fit: cover;
 	background-position: center;
 	opacity: 0.4;

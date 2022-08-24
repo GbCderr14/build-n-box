@@ -12,7 +12,7 @@ body {
 
 .container-1 {
 	width: 80%;
-	margin: 10px auto;
+	margin: 3% auto;
 }
 
 .hero {
@@ -21,12 +21,12 @@ body {
 }
 
 .hero video {
-	min-width: 90%;
-	min-height: 120%;
+	min-width: 100vh;
+	min-height: 100vh;
 	position: absolute;
-	top: 100%;
+	top: 70%;
 	left: 100%;
-	transform: translateX(-100%) translateY(-60%);
+	transform: translateX(-70%) translateY(-60%);
 	z-index: -1;
 }
 
@@ -43,16 +43,16 @@ body {
 	font-weight: bold;
 	font-size: 24px;
 }
-
+/*
 .video {
-	border-radius: 25px;
+
 }
+*/
 .vid_wrapper {
-	width: 60%;
-
+	width: 70%;
 	border-radius: 25px;
+	overflow: hidden;
 }
-
 /*
 .container-1 div {
 	border: 1px #ccc solid;

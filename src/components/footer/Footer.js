@@ -44,13 +44,13 @@ export default function Footer() {
 					<div className="logo_text"> Company </div>
 					<ul>
 						<li>
-							<a href="/">Terms and Conditions</a>
+							<a href="/">Terms&nbsp;and&nbsp;Conditions</a>
 						</li>
 						<li>
-							<a href="/">Privacy Policy</a>
+							<a href="/">Privacy&nbsp;Policy</a>
 						</li>
 						<li>
-							<a href="/">Affiliate Program Disclaimer</a>
+							<a href="/">Affiliate&nbsp;Program&nbsp;Disclaimer</a>
 						</li>
 					</ul>
 				</div>
