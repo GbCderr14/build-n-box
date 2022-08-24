@@ -3,20 +3,18 @@ import products from "../../products";
 import ShopSection from "./shopSection/ShopSection";
 
 const ShoptStore = () => {
-	const retrieved = products.map((type) => {
+	const retrieved = products.map((type, index) => {
 		return (
 			<div>
-				<ShopSection partName={type.partName} price={type.price} />
+				<div key={index}>{type.partType}</div>
+				{type.parts.map((part, index) => {
+					return <ShopSection key={index} name={part.partName} price={part.partPrice} />;
+				})}
 			</div>
 		);
 	});
 
-	return (
-		<div>
-			<h1>{products[0].partType}</h1>
-			{retrieved}
-		</div>
-	);
+	return <div>{retrieved}</div>;
 };
 
 export default ShoptStore;
