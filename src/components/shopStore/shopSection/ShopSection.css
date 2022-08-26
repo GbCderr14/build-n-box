@@ -1,9 +1,13 @@
 .shop_page {
 	color: white;
 }
-.shop_section {
+.shopping_section {
 	display: flex;
 	margin: 0;
+}
+
+.shopping_section a:visited {
+	color: #fff;
 }
 .part_card {
 	display: flex;
@@ -20,6 +24,5 @@
 .shop_type {
 	font-weight: bold;
 	font-size: 36px;
-
 	margin-bottom: 3%;
 }

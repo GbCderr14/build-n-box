@@ -9,7 +9,7 @@ const ShoptStore = () => {
 				<div key={index} className="shop_type">
 					{type.partType}
 				</div>
-				<div className="shop_section">
+				<div className="shopping_section">
 					{type.parts.map((part, index) => {
 						return <ShopSection key={index} name={part.partName} price={part.partPrice} />;
 					})}
