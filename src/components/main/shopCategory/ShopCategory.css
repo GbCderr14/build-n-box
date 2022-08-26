@@ -1,7 +1,6 @@
 .category_section {
 	display: flex;
-	justify-content: space-between;
-	justify-items: center;
+	justify-content: space-around;
 }
 
 .card {
@@ -16,14 +15,14 @@
 }
 
 .crop {
-	width: 30vh;
+	width: 15vw;
 	height: 50vh;
 	overflow: hidden;
 	border-radius: 25px;
 	overflow: hidden;
 }
 .crop img {
-	width: 30vh;
+	width: 15vw;
 	height: 65vh;
 	object-fit: cover;
 	background-position: center;

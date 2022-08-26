@@ -1,7 +1,6 @@
 * {
 	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;
-	/*background-color: #1f1e1e;*/
 	margin: 0;
 	padding: 0;
 }
@@ -43,11 +42,7 @@ body {
 	font-weight: bold;
 	font-size: 24px;
 }
-/*
-.video {
 
-}
-*/
 .vid_wrapper {
 	width: 70%;
 	border-radius: 25px;

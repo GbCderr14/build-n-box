@@ -7,10 +7,14 @@
 }
 .part_card {
 	display: flex;
-	margin: 0 5% 5% 2%;
-	width: 100px;
-	height: 200px;
+	margin: 0 5% 0 2%;
+	width: 150px;
+	height: 250px;
 	flex-direction: column;
+}
+
+.part_card .part_name {
+	width: fit-content;
 }
 
 .shop_type {
