@@ -34,6 +34,10 @@
 	border-color: #777;
 }
 
+.upper_footer > * {
+	flex: 1;
+}
+
 .upper_footer ul {
 	padding: 0px 10px;
 	list-style-type: none;

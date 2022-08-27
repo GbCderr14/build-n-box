@@ -1,6 +1,6 @@
 .landing_page {
-	margin: 10% 0 10% 0;
-	color: #fff;
+	margin: 10% 0 10% 3%;
+	color: #000;
 }
 
 .landing_page h3 {
@@ -8,9 +8,13 @@
 	margin-bottom: 1.5%;
 	font-size: 24px;
 	font-weight: normal;
+	-webkit-text-fill-color: #fff;
+	-webkit-text-stroke: 0.3px;
 }
 
 .landing_page h1 {
 	margin-bottom: 20%;
 	font-size: 38px;
+	-webkit-text-fill-color: #fff;
+	-webkit-text-stroke: 0.3px;
 }

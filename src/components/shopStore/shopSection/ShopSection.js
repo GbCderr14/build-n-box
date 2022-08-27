@@ -4,14 +4,19 @@ import "./ShopSection.css";
 const ShopSection = (props) => {
 	return (
 		<div className="part_card">
-			<a href="/">
-				<div className="part_img"></div>
-				<div className="part_name">{props.name}</div>
-				<div className="part_price">${props.price}</div>
-			</a>
+			<div className="part_card_upper">
+				<a href="/">
+					<div className="part_img">
+						<img alt="part_img" src={props.img} />
+					</div>
+					<div className="part_name">{props.name}</div>
+					{/* <div className="part_price">Price: ${props.price}</div> */}
+				</a>
+			</div>
 			<div className="part_link">
+				<div className="part_price">Price: ${props.price}</div>
 				<a href="https://www.google.ca/">
-					<button>view&nbsp;on&nbsp;amazon</button>
+					<button>View&nbsp;on&nbsp;Amazon</button>
 				</a>
 			</div>
 		</div>
