@@ -1,9 +1,9 @@
 import React from "react";
 import products from "../../products";
 import ShopSection from "./shopSection/ShopSection";
-import { client } from '../../lib/client';
+import { client } from "../../lib/client";
 
-const ShoptStore = ( productsData ) => {
+const ShoptStore = () => {
 	//console.log(productsData);
 	//change products to productsData to retrieve from Sanity
 	const retrieved = products.map((type, index) => {
@@ -24,13 +24,13 @@ const ShoptStore = ( productsData ) => {
 	return <div>{retrieved}</div>;
 };
 
-export const getServerSideProps = async () => {
-	const query = '*[_type == "Product"]';
-	const productsData = await client.fetch(query);
+// export const getServerSideProps = async () => {
+// 	const query = '*[_type == "Product"]';
+// 	const productsData = await client.fetch(query);
 
-	return {
-		props: { productsData }
-	}
-}
+// 	return {
+// 		props: { productsData }
+// 	}
+// }
 
 export default ShoptStore;
