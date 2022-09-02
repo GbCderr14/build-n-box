@@ -1,7 +1,7 @@
 .footer_section {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto 5% auto;
+	margin: 5% auto 5% auto;
 	padding: 0;
 	align-items: center;
 }

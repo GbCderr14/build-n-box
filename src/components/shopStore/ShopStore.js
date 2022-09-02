@@ -1,7 +1,7 @@
 import React from "react";
 import products from "../../products";
 import ShopSection from "./shopSection/ShopSection";
-import { client } from "../../lib/client";
+//import { client } from "../../lib/client";
 
 const ShoptStore = () => {
 	//console.log(productsData);

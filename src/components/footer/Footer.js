@@ -1,29 +1,32 @@
 import React from "react";
 import "./Footer.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Footer() {
 	return (
 		<div className="footer_section">
 			<div className="upper_footer">
-				<div className="logo">
-					<img alt="logo_pic" src="" className="logo_img" />
-					<div className="logo_text"> buildNbox </div>
-				</div>
+				<Link to="/">
+					<div className="logo">
+						<img alt="logo_pic" src="" className="logo_img" />
+						<div className="logo_text"> buildNbox </div>
+					</div>
+				</Link>
 
 				<div className="shop_section">
 					<div className="logo_text"> Shop </div>
 					<ul>
 						<li>
-							<a href="/">CPU</a>
+							<Link to="/store#CPU">CPU</Link>
 						</li>
 						<li>
-							<a href="/">Motherboard</a>
+							<Link to="/store#Motherboard">Motherboard</Link>
 						</li>
 						<li>
-							<a href="/">Storage</a>
+							<Link to="/store#SSD">Storage</Link>
 						</li>
 						<li>
-							<a href="/">RAM</a>
+							<Link to="/store#RAM">RAM</Link>
 						</li>
 					</ul>
 				</div>
@@ -44,13 +47,13 @@ export default function Footer() {
 					<div className="logo_text"> Company </div>
 					<ul>
 						<li>
-							<a href="/">Terms&nbsp;and&nbsp;Conditions</a>
+							<Link to="/legal#tnc">Terms&nbsp;and&nbsp;Conditions</Link>
 						</li>
 						<li>
-							<a href="/">Privacy&nbsp;Policy</a>
+							<Link to="/legal#pp">Privacy&nbsp;Policy</Link>
 						</li>
 						<li>
-							<a href="/">Affiliate&nbsp;Program&nbsp;Disclaimer</a>
+							<Link to="/legal#apd">Affiliate&nbsp;Program&nbsp;Disclaimer</Link>
 						</li>
 					</ul>
 				</div>
