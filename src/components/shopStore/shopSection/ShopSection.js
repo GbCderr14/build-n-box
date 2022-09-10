@@ -5,7 +5,7 @@ const ShopSection = (props) => {
 	return (
 		<div className="part_card">
 			<div className="part_card_upper">
-				<a href="/">
+				<a href={props.url}>
 					<div className="part_img">
 						<img alt="part_img" src={props.img} />
 					</div>

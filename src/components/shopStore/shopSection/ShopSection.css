@@ -40,6 +40,7 @@
 .part_card .part_name {
 	margin: 5% 0 4% 3%;
 	width: fit-content;
+	color: #fff;
 }
 
 .part_card .part_price {

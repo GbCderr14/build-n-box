@@ -1,4 +1,4 @@
-export default [
+const computerParts = [
 	{
 		partType: "CPU",
 		parts: [
@@ -208,3 +208,5 @@ export default [
 		],
 	},
 ];
+
+export default computerParts;
