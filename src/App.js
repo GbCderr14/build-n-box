@@ -12,14 +12,46 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<div className="container-1">
-				<Header />
+				<div>
+					<Header />
+				</div>
 				<Routes>
-					<Route path="/" element={<Main />} />
-					<Route path="/store" element={<ShopStore />} />
-					<Route path="/legal" element={<Legal />} />
-					<Route path="*" element={<Error />} />
+					<Route
+						path="/"
+						element={
+							<div>
+								<Main />{" "}
+							</div>
+						}
+					/>
+					<Route
+						path="/store"
+						element={
+							<div>
+								<ShopStore />
+							</div>
+						}
+					/>
+					<Route
+						path="/legal"
+						element={
+							<div>
+								<Legal />{" "}
+							</div>
+						}
+					/>
+					<Route
+						path="*"
+						element={
+							<div>
+								<Error />
+							</div>
+						}
+					/>
 				</Routes>
-				<Footer />
+				<div className="footer-comp">
+					<Footer />
+				</div>
 			</div>
 		</BrowserRouter>
 	);
