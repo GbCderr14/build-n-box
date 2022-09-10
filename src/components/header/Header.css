@@ -9,6 +9,7 @@
 
 	border-style: solid;
 	border-width: 3px 0 0 0;
+	border-color: #f26522;
 
 	margin: 3% auto 3% auto;
 	padding: 1%;
@@ -20,6 +21,7 @@
 
 .header_section .logo {
 	display: flex;
+	align-items: center;
 }
 
 .header_section .nav_elements {
@@ -30,8 +32,16 @@
 	align-items: center;
 }
 
+.logo > * {
+	padding: 0 10% 0 0;
+}
+
 .nav_elements {
 	display: inline;
 	width: fit-content;
 	word-break: normal;
+}
+
+.nav_elements > *:hover {
+	color: #f26522;
 }

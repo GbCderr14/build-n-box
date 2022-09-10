@@ -42,3 +42,7 @@
 	opacity: 1;
 	overflow: hidden;
 }
+
+.cat_name:hover {
+	color: #f26522;
+}

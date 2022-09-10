@@ -62,6 +62,9 @@ body {
 	overflow: hidden;
 }
 
+.logo_img {
+	width: 3vw;
+}
 /* .container-1 div {
 	border: 1px #ccc solid;
 } */

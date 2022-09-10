@@ -6,55 +6,63 @@ export default [
 				partName: "Intel Core i5 10400F",
 				partPrice: 300,
 				partImg: "/Database/CPU/Core i5 10400F/61cKmFhEqTL._AC_SL1500_.jpg",
-				partURL: "",
+				partURL:
+					"https://www.amazon.ca/i5-10400F-Desktop-Processor-Without-Graphics/dp/B086MHSTWN/ref=sr_1_4?crid=198MM9300MDBK&keywords=Intel+Core+i5+10400&qid=1652727419&s=electronics&sprefix=intel+core+i5+10400%2Celectronics%2C97&sr=1-4",
 			},
 			{
 				partName: "Intel Core i5 11600K",
 				partPrice: 300,
 				partImg: "/Database/CPU/Core i5 11600K/61pZ7RxQQtL._AC_SL1500_.jpg",
-				partURL: "",
+				partURL:
+					"https://www.amazon.ca/i5-11600K-Desktop-Processor-Unlocked-LGA1200/dp/B08X67YZBL/ref=sr_1_3?crid=2F73EE6TPOO4E&keywords=Intel+Core+i5+11600&qid=1652727476&s=electronics&sprefix=intel+core+i5+11600%2Celectronics%2C63&sr=1-3",
 			},
 			{
 				partName: "Intel Core i7 12700K",
 				partPrice: 300,
 				partImg: "/Database/CPU/Core i7 12700K/51AbfAFuhLL._AC_SL1038_.jpg",
-				partURL: "",
+				partURL: "https://www.amazon.ca/Intel-i7-12700K-Desktop-Processor-Unlocked/dp/B09FXNVDBJ/ref=sr_1_23?keywords=intel+cpu&qid=1652724777&s=pc&sr=1-23",
 			},
 			{
 				partName: "Intel Core i9 10900K",
 				partPrice: 300,
 				partImg: "/Database/CPU/Core i9 10900K/61aMmen0cFL._AC_SL1099_.jpg",
-				partURL: "",
+				partURL:
+					"https://www.amazon.ca/Intel-i9-10900K-Desktop-Processor-Unlocked/dp/B086MHSTVD/ref=sr_1_4?crid=12CD71E9A6YS4&keywords=Intel+Core+i9&qid=1652726900&s=electronics&sprefix=intel+core+i9%2Celectronics%2C145&sr=1-4",
 			},
 			{
 				partName: "Intel Core i9 11900K",
 				partPrice: 300,
 				partImg: "/Database/CPU/Core i9 11900K/41jGx-EgaJL._AC_.jpg",
-				partURL: "",
+				partURL:
+					"https://www.amazon.ca/Intel-i9-11900K-Desktop-Processor-Unlocked/dp/B08X6PPTTH/ref=sr_1_5?crid=12CD71E9A6YS4&keywords=Intel+Core+i9&qid=1652726900&s=electronics&sprefix=intel+core+i9%2Celectronics%2C145&sr=1-5",
 			},
 			{
 				partName: "AMD Ryzen 5 5600",
 				partPrice: 300,
 				partImg: "/Database/CPU/Ryzen 5 5600/51esLVqZB0L._AC_SL1384_.jpg",
-				partURL: "",
+				partURL:
+					"https://www.amazon.ca/AMD-5600-Wraith-Stealth-Cooler/dp/B09VCHR1VH/ref=sr_1_2?crid=MEAJIUU17R3J&keywords=Ryzen+5600&qid=1652727661&s=electronics&sprefix=ryzen+5600%2Celectronics%2C97&sr=1-2",
 			},
 			{
 				partName: "AMD Ryzen 7 5700G",
 				partPrice: 300,
 				partImg: "/Database/CPU/Ryzen 7 5700G/51p5BjKPc1L._AC_SL1395_.jpg",
-				partURL: "",
+				partURL:
+					"https://www.amazon.ca/AMD-Ryzen-5700G-16-Thread-Processor/dp/B091J3NYVF/ref=sr_1_1?crid=2TLX0NQBH70GI&keywords=Ryzen+5700g&qid=1652727510&s=electronics&sprefix=ryzen+5700g%2Celectronics%2C79&sr=1-1",
 			},
 			{
 				partName: "AMD Ryzen 7 5800X",
 				partPrice: 300,
 				partImg: "/Database/CPU/Ryzen 7 5800X/61DYLoyNRWL._AC_SL1384_.jpg",
-				partURL: "",
+				partURL:
+					"https://www.amazon.ca/DANIPEW-Sand-Man-Cotton-Performance-T-Shirt/dp/B0815XFSGK/ref=sr_1_1?crid=K47LJHHH4FSR&keywords=Ryzen+5800x&qid=1652727623&s=electronics&sprefix=ryzen+5800x%2Celectronics%2C70&sr=1-1",
 			},
 			{
 				partName: "AMD Ryzen 9 5900X",
 				partPrice: 300,
 				partImg: "/Database/CPU/Ryzen 9 5900X/61gMd1izD5L._AC_SL1500_.jpg",
-				partURL: "",
+				partURL:
+					"https://www.amazon.ca/DANIPEW-Sand-Man-Cotton-Performance-T-Shirt/dp/B08164VTWH/ref=sr_1_1?crid=13UNKQR9EZKFP&keywords=Ryzen+5900x&qid=1652727697&s=electronics&sprefix=ryzen+5900x%2Celectronics%2C83&sr=1-1",
 			},
 		],
 	},

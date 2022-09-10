@@ -14,7 +14,7 @@ const ShoptStore = () => {
 				</div>
 				<div className="shopping_section">
 					{type.parts.map((part, index) => {
-						return <ShopSection key={index} name={part.partName} price={part.partPrice} img={part.partImg} />;
+						return <ShopSection key={index} name={part.partName} price={part.partPrice} img={part.partImg} url={part.partURL} />;
 					})}
 				</div>
 			</div>

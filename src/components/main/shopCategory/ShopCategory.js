@@ -8,7 +8,7 @@ const ShopCategory = (props) => {
 				<div className="crop">
 					<img className="cat_img" alt="some_pic" src={props.img} />
 				</div>
-				<div>{props.catName}</div>
+				<div className="category_name">{props.catName}</div>
 			</a>
 		</div>
 	);

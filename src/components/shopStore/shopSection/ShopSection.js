@@ -15,7 +15,7 @@ const ShopSection = (props) => {
 			</div>
 			<div className="part_link">
 				<div className="part_price">Price: ${props.price}</div>
-				<a href="https://www.google.ca/">
+				<a href={props.url}>
 					<button>View&nbsp;on&nbsp;Amazon</button>
 				</a>
 			</div>

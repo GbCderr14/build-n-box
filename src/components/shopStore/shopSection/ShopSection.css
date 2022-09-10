@@ -4,7 +4,7 @@
 
 .shop_type {
 	border-bottom: solid;
-	border-color: #777;
+	border-color: #f26522;
 }
 
 .shopping_section a:visited {
@@ -77,12 +77,12 @@
 }
 
 .part_card button {
-	background-color: #008cba;
+	background-color: #f26522;
 	color: white;
 	font-size: 16px;
 	padding: 12px 16px;
 	border-radius: 20px;
-	border: 2px solid #008cba;
+	border: 2px solid #f26522;
 	transition-duration: 0.2s;
 	margin: 5% 0 5% 0;
 }

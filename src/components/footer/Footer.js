@@ -8,7 +8,7 @@ export default function Footer() {
 			<div className="upper_footer">
 				<Link to="/">
 					<div className="logo">
-						<img alt="logo_pic" src="" className="logo_img" />
+						<img alt="logo_pic" src="/media/bnb_logo.png" className="logo_img" />
 						<div className="logo_text"> buildNbox </div>
 					</div>
 				</Link>
