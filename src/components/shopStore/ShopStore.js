@@ -14,7 +14,8 @@ const ShoptStore = () => {
 				</div>
 				<div className="shopping_section">
 					{type.parts.map((part, index) => {
-						return <ShopSection key={index} name={part.partName} price={part.partPrice} img={part.partImg} url={part.partURL} />;
+						let pageURL = "https://www.amazon.ca/s?k=" + part.partName;
+						return <ShopSection key={index} name={part.partName} price={part.partPrice} img={part.partImg} url={pageURL} />;
 					})}
 				</div>
 			</div>
