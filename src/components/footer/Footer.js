@@ -58,7 +58,7 @@ export default function Footer() {
 					</ul>
 				</div>
 			</div>
-			<p>© 2022, buildNbox.com</p>
+			<p>© 2023, buildNbox.com</p>
 		</div>
 	);
 }
